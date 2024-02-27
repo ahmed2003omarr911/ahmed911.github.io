@@ -35,3 +35,9 @@ a {
 .item {
 	flex: 0 1 auto;
 }
+
+@media (max-width: 1023px) {
+	img {
+		width: 15.5em;
+	}
+}
