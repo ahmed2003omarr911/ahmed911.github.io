@@ -1,11 +1,14 @@
 img {
-	width: 250px;
-	height: 250px;
-	border-radius: 125px;
+	width: 40%;
+	border-radius: 200px;
 }
 
 h2 {
 	font-size: 18px;
+}
+
+header {
+	width: 100%;
 }
 
 body {
@@ -34,14 +37,4 @@ a {
 
 .item {
 	flex: 0 1 auto;
-}
-
-@media (max-width: 1023px) {
-	img {
-		width: 15.5em;
-	}
-
-	h1 {
-		font-size: 50px;
-	}
 }
